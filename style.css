@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: black;
     font-family: Arial;
     text-align: center;
     padding: 50px;
@@ -22,13 +22,19 @@ h1 {
     margin: 20px 0;
 }
 
-.album-box {
+.album-cover {
     width: 150px;
     height: 150px;
-    background-color: lightgray;
+    border-radius: 10px;
+    display: block;
     margin: 0 auto;
-    font-size: 60px;
-    line-height: 150px;
+}
+
+.album-name {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .info h2 {
